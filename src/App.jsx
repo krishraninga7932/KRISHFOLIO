@@ -7,7 +7,7 @@ import Project from "./components/Project";
 import Testimonial from "./components/testimonial";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
-import Resume from "./components/Resume";
+import Resume from "./components/resume";
 import "./App.css";
 
 function App() {
