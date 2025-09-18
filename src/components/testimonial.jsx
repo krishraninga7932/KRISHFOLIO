@@ -65,10 +65,10 @@ const Testimonial = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
           viewport={{ once: true }}
-          className="text-2xl sm:text-3xl lg:text-5xl text-center mx-auto font-inter uppercase tracking-wider font-bold text-gray-200 mb-12 sm:mb-20 leading-snug"
+          className="text-2xl sm:text-3xl lg:text-5xl text-center mx-auto font-inter uppercase tracking-wider font-bold text-gray-200 mb-12 sm:mb-20 leading-snug xl:max-w-[45%]"
         >
           DON'T JUST TAKE MY 😊
-          <span className="text-[#ABFF02]"> WORD </span> FOR IT.
+          <span className="text-[#ABFF02]"> WORD </span> FOR IT...
         </motion.h2>
 
         {/* Arrows */}
