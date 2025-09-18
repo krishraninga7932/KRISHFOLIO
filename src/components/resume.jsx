@@ -3,7 +3,10 @@ import { HiArrowLeft, HiDownload, HiExternalLink } from "react-icons/hi";
 
 const Resume = () => {
   const [pdfError, setPdfError] = useState(false);
-  const pdfPath = "/docs/Krish_Raninga2.pdf";
+  // Try different path variations - uncomment the one that works
+  const pdfPath = "/Krish_Raninga2.pdf";  // If PDF is directly in public folder
+  // const pdfPath = "/docs/Krish_Raninga2.pdf";  // If PDF is in public/docs folder
+  // const pdfPath = "./Krish_Raninga2.pdf";  // Alternative relative path
 
   return (
     <div className="w-full h-screen bg-[#07030E] flex flex-col items-center justify-center text-white">
