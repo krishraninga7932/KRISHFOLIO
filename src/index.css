@@ -1,0 +1,98 @@
+html,body {
+  color: white;
+  background-color: #07030E;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+
+}
+/* google fonts */
+@font-face {
+  font-family: poppins;
+  src: url("../src/assets/fonts/poppins/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: inter;
+  src: url("../src/assets/fonts/inter/Inter_28pt-Regular.ttf");
+}
+
+@import "tailwindcss";
+
+@theme {
+  --font-poppins: poppins, "sans-serif";
+  --font-inter: inter, "sans-serif";
+}
+
+/* moves the line from left to right */
+.animate-move {
+  animation: move 3s linear infinite;
+}
+@keyframes move {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(250%);
+  }
+}
+
+/* spins icon near logo */
+.spin {
+  animation: spin 3s linear infinite;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* increases shadow in skills MERN */
+@keyframes shadowIncrease {
+  0% {
+    box-shadow: 0 0 0 0 rgba(171, 255, 2, 0.5);
+  }
+  70% {
+    box-shadow: 0 0 0 35px rgba(171, 255, 2, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(171, 255, 2, 0);
+  }
+}
+
+.shadowIncrease {
+  animation: shadowIncrease 2s infinite;
+}
+
+/* text anime footer */
+.gradient-text {
+  background-size: 200% 200%;
+  animation: textGradientMove 3s ease infinite;
+}
+@keyframes textGradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* swiper */
+.swiper-pagination-bullet {
+  background-color: #abff02 !important;
+  opacity: 0.6;
+  margin: 12px 0 !important;
+  width: 12px !important;
+  height: 12px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #abff02;
+  opacity: 1;
+  scale: 1.2;
+}
