@@ -32,6 +32,7 @@ const Footer = () => {
               >
                 <img
                   src={profile2}
+                  loading="lazy"
                   alt="profile"
                   className="w-[100%] object-cover"
                 />

@@ -108,6 +108,7 @@ const Banner = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.2, delay: 2 }}
             src={profile2}
+            loading="lazy"
             alt="profile"
             className=" w-[54%] md:w-[38%] lg:w-[36%] xl:w-[31.5%] z-10 mx-auto absolute top-[115%] xl:top-[61%] right-[27%] md:right-[30%] lg:right-[28%] xl:right-[10%]"
           />

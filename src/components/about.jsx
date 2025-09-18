@@ -93,6 +93,7 @@ const About = () => {
             <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-[36px] font-bold font-inter flex gap-2 sm:gap-3 items-center mb-3 sm:mb-4 text-[#ABFF02]">
               <img
                 src={hand}
+                loading="lazy"
                 alt="moving hand"
                 className="w-6 sm:w-8 md:w-10"
               />
